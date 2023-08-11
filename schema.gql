@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  getAllTodos: [String!]!
+}
+
+type Mutation {
+  createTodo(todoInput: TodoInput!): String!
+}
+
+input TodoInput {
+  title: String!
+  completed: Boolean!
+}
